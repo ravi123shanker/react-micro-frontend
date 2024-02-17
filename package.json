@@ -12,7 +12,13 @@
     "start:main-app": "npm run start --workspace=main-app",
     "runall": "npm-run-all --parallel start:mfe-app1 start:mfe-app2 start:main-app"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "mfe",
+    "webpack",
+    "module-federation",
+    "micro frontend"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
