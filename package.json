@@ -10,7 +10,11 @@
     "start:mfe-app1": "npm run start --workspace=mfe-app1",
     "start:mfe-app2": "npm run start --workspace=mfe-app2",
     "start:main-app": "npm run start --workspace=main-app",
-    "runall": "npm-run-all --parallel start:mfe-app1 start:mfe-app2 start:main-app"
+    "runall": "npm-run-all --parallel start:mfe-app1 start:mfe-app2 start:main-app",
+    "build:mfe-app1": "npm run build --workspace=mfe-app1",
+    "build:mfe-app2": "npm run build --workspace=mfe-app2",
+    "build:main-app": "npm run build --workspace=main-app",
+    "buildall": "npm run build:mfe-app1 && npm run build:mfe-app2 && npm run build:main-app"
   },
   "keywords": [
     "react",
