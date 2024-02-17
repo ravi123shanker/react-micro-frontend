@@ -11,7 +11,6 @@ ReactJS micro front end app
 
 # 💻 Built With  
 - [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
 - [Webpack - module-federation](https://webpack.js.org/concepts/module-federation/#root)
 
 # 🛠️ Installation Steps
